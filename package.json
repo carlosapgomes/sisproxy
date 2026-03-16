@@ -1,0 +1,36 @@
+{
+  "name": "sisproxy",
+  "version": "0.0.1",
+  "description": "Sisp proxy for elasticsearch and user tokens",
+  "main": "sisproxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Alberto Pereira Gomes (capgomes@gmail.com / carlos@gomes.cx)",
+  "license": "ISC",
+  "dependencies": {
+    "agentkeepalive": "^3.3.0",
+    "atob": "^2.1.2",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dayjs": "^1.10.4",
+    "dotenv": "^8.2.0",
+    "elasticsearch": "^16.6.0",
+    "express": "^4.16.2",
+    "firebase-admin": "^12.2.0",
+    "jsonwebtoken": "^8.1.0",
+    "libsodium-wrappers": "^0.7.6",
+    "morgan": "^1.9.1",
+    "pg": "^8.11.5",
+    "winston": "^2.4.0",
+    "winston-gke": "^1.0.2"
+  },
+  "keywords": [
+    "sisp"
+  ],
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
